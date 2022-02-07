@@ -1,10 +1,13 @@
 *{
-	color: rgb(103,44,170);
     background-color: bisque;
 }
 
 h1{
-	color: blue;
+	color: brown;
+}
+
+h2{
+	color: darkblue;
 }
 
 .Major-Heading{
@@ -16,7 +19,7 @@ p.Example {
 	background-color: red;
 }
 
-a:hover {
+h2:hover {
 	color: blue;
 }
 
