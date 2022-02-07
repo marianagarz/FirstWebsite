@@ -1,0 +1,26 @@
+*{
+	color: rgb(103,44,170);
+    background-color: bisque;
+}
+
+h1{
+	color: blue;
+}
+
+.Major-Heading{
+	color: hotpink !important;
+}
+
+p.Example {
+	font-family: Garamond;
+	background-color: red;
+}
+
+a:hover {
+	color: blue;
+}
+
+p{
+	font-family: "Times New Roman";
+	width: 50px;
+}
