@@ -6,9 +6,6 @@ h1{
 	color: brown;
 }
 
-h2{
-	color: darkblue;
-}
 
 .Major-Heading{
 	color: hotpink !important;
@@ -19,11 +16,13 @@ p.Example {
 	background-color: red;
 }
 
-h2:hover {
+h3:hover {
 	color: blue;
 }
 
-p{
-	font-family: "Times New Roman";
-	width: 50px;
+h2{
+	color: black;
+	background-color: red;
 }
+
+
