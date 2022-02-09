@@ -3,9 +3,38 @@
 }
 
 h1{
-	color: brown;
+	color: black;
+	background-color: red;
 }
 
+.button{
+	color: red; 
+	cursor: pointer; 
+	background-color: black;
+}
+#button1{
+	text-decoration: none; 
+	color: red; 
+	cursor: pointer; 
+	background-color: black;
+}
+
+#button2{
+	text-decoration: none; 
+	color: red; 
+	cursor: pointer; 
+	background-color: black;
+}
+#myTitle{
+	position: sticky;
+	opacity: 90%;
+	top: 0px;
+	text-align: center;
+	background-color:red;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+}
 
 .Major-Heading{
 	color: hotpink !important;
