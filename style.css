@@ -25,19 +25,38 @@ h1{
 	cursor: pointer; 
 	background-color: black;
 }
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.center{
+	border: 10px solid black;
+	border-collapse: collapse;
+}
+
+
+table,th,tr,td.week{
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+
+
 #myTitle{
 	position: sticky;
 	opacity: 90%;
 	top: 0px;
 	text-align: center;
 	background-color:red;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	
 }
 }
 
-.Major-Heading{
-	color: hotpink !important;
+h1.Major-Heading{
+	color: black;
+	background-color: red;
+	text-align: center;
 }
 
 p.Example {
