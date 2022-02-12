@@ -1,45 +1,6 @@
 *{
-    background-color: bisque;
-}
-
-h1{
-	color: black;
-	background-color: red;
-}
-
-.button{
-	color: red; 
-	cursor: pointer; 
-	background-color: black;
-}
-#button1{
-	text-decoration: none; 
-	color: red; 
-	cursor: pointer; 
-	background-color: black;
-}
-
-#button2{
-	text-decoration: none; 
-	color: red; 
-	cursor: pointer; 
-	background-color: black;
-}
-
-.center{
-	margin-left:auto;
-	margin-right:auto;
-}
-
-table.center{
-	border: 10px solid black;
-	border-collapse: collapse;
-}
-
-
-table,th,tr,td.week{
-	border: 5px solid black;
-	border-collapse: collapse;
+    background-color: lavender;
+	font-family: Rockwell;
 }
 
 
@@ -47,30 +8,115 @@ table,th,tr,td.week{
 	position: sticky;
 	opacity: 90%;
 	top: 0px;
-	text-align: center;
-	background-color:red;
 	
 }
-}
 
-h1.Major-Heading{
+
+.heading h1,.heading h2 {
 	color: black;
-	background-color: red;
+	background-color:pink;
 	text-align: center;
+	font-family: Franklin Gothic Medium;
 }
 
-p.Example {
-	font-family: Garamond;
-	background-color: red;
+.main-text{
+	position: relative; 
+	bottom:107px;
+	left:120px;
+	border: 10px solid pink;
 }
 
-h3:hover {
-	color: blue;
+.body-text p{
+	width:200px;
+	position:relative;
+	bottom:70px;
+	background-color:pink;
+	padding:20px;
+	border: 10px solid white;
 }
 
-h2{
-	color: black;
-	background-color: red;
+
+.my-family p{
+	display:inline-block; 
+	position:relative;
+	bottom:715px;
+	width: 200px;
+	margin:300px;
+	background-color:white;
+	padding:20px;
+	border: 10px solid pink;
 }
+
+.p1 p{
+	display: block;
+	width: 300px;
+	height:0px;
+	margin:0px;
+}
+
+#read{
+	float: right;
+}
+
+.p2 p{
+   display: inline-block;
+   position:relative;
+   left:300px;
+   margin:0px;
+   width: 300px;
+}
+
+.back{
+	position: relative; 
+	bottom: 1400px;
+}
+p{
+	font-family: Franklin Gothic Medium;
+}
+
+li,ul,ol{
+	color:purple;
+}
+
+button{
+	cursor: pointer; 
+	background-color: white;
+}
+
+
+#button1,#button2{
+		text-decoration: none; 
+		background-color: white;
+		color:black;
+}
+
+
+
+
+.center, .center th, .center tr{
+	border: 10px solid black;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.very-important {
+	color: purple;
+	font-family: Franklin Gothic Medium;
+}
+
+
+.week, .week th, .week tr{
+	border: 5px solid black;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+
 
 
