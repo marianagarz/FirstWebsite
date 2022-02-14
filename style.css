@@ -8,6 +8,7 @@
 	position: sticky;
 	opacity: 90%;
 	top: 0px;
+	z-index:1;
 	
 }
 
@@ -61,6 +62,7 @@
 .p2 p{
    display: inline-block;
    position:relative;
+   z-index: 0;
    left:300px;
    margin:0px;
    width: 300px;
