@@ -59,13 +59,10 @@
 	float: right;
 }
 
-.p2 p{
+#blurb p{
    display: inline-block;
-   position:relative;
    z-index: 0;
-   left:300px;
-   margin:0px;
-   width: 300px;
+   width: 200px;
 }
 
 .back{
